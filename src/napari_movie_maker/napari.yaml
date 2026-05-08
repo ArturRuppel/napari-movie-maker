@@ -1,0 +1,11 @@
+name: napari-movie-maker
+display_name: Movie Maker
+visibility: public
+contributions:
+  commands:
+    - id: napari-movie-maker.make_qwidget
+      title: Movie Maker
+      python_name: napari_movie_maker._widget:MovieMakerWidget
+  widgets:
+    - command: napari-movie-maker.make_qwidget
+      display_name: Movie Maker
